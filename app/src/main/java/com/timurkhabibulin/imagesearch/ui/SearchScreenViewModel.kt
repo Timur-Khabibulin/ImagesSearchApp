@@ -1,4 +1,4 @@
-package education.openschools.imagesearch.ui
+package com.timurkhabibulin.imagesearch.ui
 
 import android.content.Context
 import android.content.Intent
@@ -9,10 +9,10 @@ import androidx.paging.Pager
 import androidx.paging.PagingConfig
 import androidx.paging.PagingData
 import androidx.paging.cachedIn
+import com.timurkhabibulin.imagesearch.domain.ItemsPagingSource
+import com.timurkhabibulin.imagesearch.domain.Repository
+import com.timurkhabibulin.imagesearch.domain.entities.Image
 import dagger.hilt.android.lifecycle.HiltViewModel
-import education.openschools.imagesearch.domain.ItemsPagingSource
-import education.openschools.imagesearch.domain.Repository
-import education.openschools.imagesearch.domain.entities.Image
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.ExperimentalCoroutinesApi
 import kotlinx.coroutines.flow.Flow

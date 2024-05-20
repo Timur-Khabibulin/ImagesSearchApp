@@ -1,6 +1,6 @@
-package education.openschools.imagesearch.domain
+package com.timurkhabibulin.imagesearch.domain
 
-import education.openschools.imagesearch.domain.entities.Image
+import com.timurkhabibulin.imagesearch.domain.entities.Image
 
 interface Repository {
     suspend fun searchImages(

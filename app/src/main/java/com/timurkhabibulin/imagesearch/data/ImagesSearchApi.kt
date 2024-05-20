@@ -1,6 +1,6 @@
-package education.openschools.imagesearch.data
+package com.timurkhabibulin.imagesearch.data
 
-import education.openschools.imagesearch.domain.entities.SearchResponse
+import com.timurkhabibulin.imagesearch.domain.entities.SearchResponse
 import retrofit2.Call
 import retrofit2.http.Field
 import retrofit2.http.FormUrlEncoded

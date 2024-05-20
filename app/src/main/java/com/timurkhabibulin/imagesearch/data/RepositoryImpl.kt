@@ -1,7 +1,7 @@
-package education.openschools.imagesearch.data
+package com.timurkhabibulin.imagesearch.data
 
-import education.openschools.imagesearch.domain.Repository
-import education.openschools.imagesearch.domain.entities.Image
+import com.timurkhabibulin.imagesearch.domain.Repository
+import com.timurkhabibulin.imagesearch.domain.entities.Image
 import kotlinx.coroutines.CoroutineDispatcher
 import kotlinx.coroutines.withContext
 import javax.inject.Inject

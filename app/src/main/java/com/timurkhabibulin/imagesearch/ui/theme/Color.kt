@@ -1,4 +1,4 @@
-package education.openschools.imagesearch.ui.theme
+package com.timurkhabibulin.imagesearch.ui.theme
 
 import androidx.compose.ui.graphics.Color
 

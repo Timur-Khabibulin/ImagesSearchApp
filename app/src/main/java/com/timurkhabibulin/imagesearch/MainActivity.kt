@@ -1,4 +1,4 @@
-package education.openschools.imagesearch
+package com.timurkhabibulin.imagesearch
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
@@ -12,10 +12,10 @@ import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
 import androidx.navigation.navArgument
 import dagger.hilt.android.AndroidEntryPoint
-import education.openschools.imagesearch.ui.ImageDetailScreen
-import education.openschools.imagesearch.ui.SearchScreen
-import education.openschools.imagesearch.ui.SearchScreenViewModel
-import education.openschools.imagesearch.ui.theme.ImageSearchTheme
+import com.timurkhabibulin.imagesearch.ui.ImageDetailScreen
+import com.timurkhabibulin.imagesearch.ui.SearchScreen
+import com.timurkhabibulin.imagesearch.ui.SearchScreenViewModel
+import com.timurkhabibulin.imagesearch.ui.theme.ImageSearchTheme
 
 @AndroidEntryPoint
 class MainActivity : ComponentActivity() {

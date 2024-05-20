@@ -1,4 +1,4 @@
-package education.openschools.imagesearch.domain.entities
+package com.timurkhabibulin.imagesearch.domain.entities
 
 data class SearchParameters(
     val engine: String,

@@ -1,4 +1,4 @@
-package education.openschools.imagesearch
+package com.timurkhabibulin.imagesearch
 
 import android.app.Application
 import coil.ImageLoader

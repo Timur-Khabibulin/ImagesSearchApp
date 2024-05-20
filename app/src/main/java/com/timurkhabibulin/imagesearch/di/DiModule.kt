@@ -1,14 +1,14 @@
-package education.openschools.imagesearch.di
+package com.timurkhabibulin.imagesearch.di
 
+import com.timurkhabibulin.imagesearch.data.AuthorizationInterceptor
+import com.timurkhabibulin.imagesearch.data.ImagesSearchApi
+import com.timurkhabibulin.imagesearch.data.RepositoryImpl
+import com.timurkhabibulin.imagesearch.domain.Repository
 import dagger.Binds
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn
 import dagger.hilt.components.SingletonComponent
-import education.openschools.imagesearch.data.AuthorizationInterceptor
-import education.openschools.imagesearch.data.ImagesSearchApi
-import education.openschools.imagesearch.data.RepositoryImpl
-import education.openschools.imagesearch.domain.Repository
 import kotlinx.coroutines.CoroutineDispatcher
 import kotlinx.coroutines.Dispatchers
 import okhttp3.OkHttpClient

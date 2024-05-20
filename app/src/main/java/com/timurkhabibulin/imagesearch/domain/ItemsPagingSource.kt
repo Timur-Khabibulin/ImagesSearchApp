@@ -1,4 +1,4 @@
-package education.openschools.imagesearch.domain
+package com.timurkhabibulin.imagesearch.domain
 
 import androidx.paging.PagingSource
 import androidx.paging.PagingState

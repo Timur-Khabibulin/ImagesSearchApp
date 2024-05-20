@@ -1,6 +1,6 @@
-package education.openschools.imagesearch.data
+package com.timurkhabibulin.imagesearch.data
 
-import education.openschools.imagesearch.BuildConfig
+import com.timurkhabibulin.imagesearch.BuildConfig
 import okhttp3.Interceptor
 import okhttp3.Request
 import okhttp3.Response

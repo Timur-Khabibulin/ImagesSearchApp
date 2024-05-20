@@ -1,4 +1,4 @@
-package education.openschools.imagesearch.ui
+package com.timurkhabibulin.imagesearch.ui
 
 import android.graphics.drawable.ColorDrawable
 import androidx.compose.foundation.clickable
@@ -41,8 +41,8 @@ import androidx.paging.compose.collectAsLazyPagingItems
 import coil.compose.AsyncImage
 import coil.request.CachePolicy
 import coil.request.ImageRequest
-import education.openschools.imagesearch.R
-import education.openschools.imagesearch.domain.entities.Image
+import com.timurkhabibulin.imagesearch.R
+import com.timurkhabibulin.imagesearch.domain.entities.Image
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.flow
 

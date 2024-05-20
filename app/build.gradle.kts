@@ -12,11 +12,11 @@ val localProperties = Properties()
 localProperties.load(FileInputStream(rootProject.file("local.properties")))
 
 android {
-    namespace = "education.openschools.imagesearch"
+    namespace = "com.timurkhabibulin.imagesearch"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "education.openschools.imagesearch"
+        applicationId = "com.timurkhabibulin.imagesearch"
         minSdk = 24
         targetSdk = 34
         versionCode = 1

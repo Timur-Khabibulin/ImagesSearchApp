@@ -1,4 +1,4 @@
-package education.openschools.imagesearch.ui.theme
+package com.timurkhabibulin.imagesearch.ui.theme
 
 import androidx.compose.material3.Typography
 import androidx.compose.ui.text.TextStyle
